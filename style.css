@@ -1,0 +1,100 @@
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 100px;
+}
+
+form {
+    margin: 10px 20px;
+    background-color: #f3d98e7d;
+}
+
+button {
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+    background-color: #351b2ecf;
+    color: white;
+}
+
+button:hover {
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    background-image: url(images/bg-ed.png);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div.submit-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.submit-btn p {
+    flex: 3;
+}
+
+input[type=button] {
+    padding: 5px 20px;
+    border: 1px solid darkgrey;
+    cursor: pointer;
+    flex: 1;
+    background-color: #f55a3ec7;
+}
+
+input[type=button]:hover {
+    background-color: #3F51B5;
+    color: white;
+    font-size: 1em;
+}
+
+label:hover {
+    font-size: 1.2em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+legend {
+    font-weight: 900;
+}
+
+.done input {
+    color: darkblue;
+    background-color: lightslategray;
+}
+
+.done {
+    opacity: 0.5;
+}
+
+.done input[type=button] {
+    background-color: #3F51B5;
+    color: white;
+}
+
+footer {
+    background-color: #f0ffffab;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+footer p {
+    text-align: center;
+}

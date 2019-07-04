@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon.png">
+    <title>Demo Quizz</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/mark.png" alt="question mark">
+        </div>
+        <h1>Let's Check your knowledge about Food!!</h1>
+    </header>
+    <main>
+        <form id="tea">
+            <fieldset>
+                <legend>What is tea made up of?</legend>
+                <input id="root" type="radio" name="levels" value="Root">
+                <label for="root">Roots of plants</label>
+                <br>
+                <input id="flower" type="radio" name="levels" value="flower">
+                <label for="flower">Flower petals of plants</label>
+                <br>
+                <input id="leaves" type="radio" name="levels" value="leaves">
+                <label for="leaves">Leaves of plants</label>
+            </fieldset>
+            <div class="submit-btn">
+                <p>Submit your Answer</p>
+                <input type="button" value="Submit" onclick="teaAnswer()">
+            </div>
+        </form>
+        <form id="sugar">
+            <fieldset>
+                <legend>What is sugar made up of?</legend>
+                <input id="sugarcane" type="radio" name="levels" value="sugarcane">
+                <label for="sugarcane">Juice of Sugar-Cane</label>
+                <br>
+                <input id="apricot" type="radio" name="levels" value="apricot">
+                <label for="apricot">Juice of Apricot</label>
+                <br>
+                <input id="jasmine" type="radio" name="levels" value="jasmine">
+                <label for="jasmine">Essence of Jasmine</label>
+            </fieldset>
+            <div class="submit-btn">
+                <p>Submit your Answer</p>
+                <input type="button" value="Submit" onclick="sugarAnswer()">
+            </div>
+        </form>
+        <form id="roti">
+            <fieldset>
+                <legend>What are correct ingredients of making Roti?</legend>
+                <input id="flour-water-oil" type="radio" name="levels" value="flour-water-oil">
+                <label for="flour-water-oil">Flour, Water and Oil</label>
+                <br>
+                <input id="flour-salt-oil" type="radio" name="levels" value="flour-salt-oil">
+                <label for="flour-salt-oil">Flour, Salt and Oil</label>
+                <br>
+                <input id="flour-salt-water" type="radio" name="levels" value="flour-salt-water">
+                <label for="flour-salt-water">Flour, Salt and Water</label>
+            </fieldset>
+            <div class="submit-btn">
+                <p>Submit your Answer</p>
+                <input type="button" value="Submit" onclick="rotiAnswer()">
+            </div>
+        </form>
+        <form id="youghurt-made">
+            <fieldset>
+                <legend>What is youghurt made up of?</legend>
+                <input id="cheese" type="radio" name="levels" value="cheese">
+                <label for="cheese">Cheese</label>
+                <br>
+                <input id="milk" type="radio" name="levels" value="milk">
+                <label for="milk">Milk</label>
+                <br>
+                <input id="ghee" type="radio" name="levels" value="ghee">
+                <label for="ghee">Ghee</label>
+            </fieldset>
+            <div class="submit-btn">
+                <p>Submit your Answer</p>
+                <input type="button" value="Submit" onclick="milkAnswer()">
+            </div>
+        </form>
+        <form id="edible-food">
+            <fieldset>
+                <legend>Things which can be eaten are called?</legend>
+                <input id="edible" type="radio" name="levels" value="edible">
+                <label for="edible">Edible</label>
+                <br>
+                <input id="veggies" type="radio" name="levels" value="veggies">
+                <label for="veggies">Veggies</label>
+                <br>
+                <input id="eatable" type="radio" name="levels" value="eatable">
+                <label for="eatable">Eatable items</label>
+            </fieldset>
+            <div class="submit-btn">
+                <p>Submit your Answer</p>
+                <input type="button" value="Submit" onclick="edibleAnswer()">
+            </div>
+        </form>
+        <form id="honey-rot">
+            <fieldset>
+                <legend>What is the only food that can never rot?</legend>
+                <input id="vinegar" type="radio" name="levels" value="vinegar">
+                <label for="vinegar">Vinegar</label>
+                <br>
+                <input id="honey" type="radio" name="levels" value="honey">
+                <label for="honey">Honey</label>
+                <br>
+                <input id="basil-leaves" type="radio" name="levels" value="basil-leaves">
+                <label for="basil-leaves">Basil Leaves</label>
+            </fieldset>
+            <div class="submit-btn">
+                <p>Submit your Answer</p>
+                <input type="button" value="Submit" onclick="honeyAnswer()">
+            </div>
+        </form>
+        <form id="gelatin">
+            <fieldset>
+                <legend>What is gelatin made of?</legend>
+                <input id="soy" type="radio" name="levels" value="soy">
+                <label for="soy">Soy products</label>
+                <br>
+                <input id="skin-and-bones" type="radio" name="levels" value="skin-and-bones">
+                <label for="skin-and-bones">Animal Skin and Bones</label>
+                <br>
+                <input id="hairs" type="radio" name="levels" value="hairs">
+                <label for="hairs">Animal hairs</label>
+            </fieldset>
+            <div class="submit-btn">
+                <p>Submit your Answer</p>
+                <input type="button" value="Submit" onclick="gelatinAnswer()">
+            </div>
+        </form>
+        <button onclick="checkScores()">Check your Scores!!</button>
+    </main>
+    <footer>
+        <p>
+            This page has copyright issues because it is the result of Somia's Hard work, not yours!!
+        </p>
+        <p>
+            If you like my work, Give star to the repo at
+            <a href="#">Github!</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
