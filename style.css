@@ -73,6 +73,10 @@ legend {
     font-weight: 900;
 }
 
+fieldset {
+    min-height: 80px;
+}
+
 .done input {
     color: darkblue;
     background-color: lightslategray;
